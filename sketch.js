@@ -5,4 +5,5 @@ function setup() {
 
 function draw() {
   circle(mouseX, mouseY, random(0, 100));
+  rect(mouseX, mouseY, random(0, 100));
 }
